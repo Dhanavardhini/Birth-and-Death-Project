@@ -1,0 +1,32 @@
+
+/* .background-blur {
+    background-color:#EEF7FF;
+    min-height: 100vh;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+  } */
+  
+  .y {
+    width: 25%; 
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  }
+  h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .aks{
+    opacity: 0.4;
+  }
+  
+  

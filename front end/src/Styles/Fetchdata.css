@@ -1,0 +1,21 @@
+.har{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:300px;
+    height: 300px;
+    padding: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 100px rgba(238, 238, 238, 0.406) inset;
+    border-radius: 10px 20px;
+    text-align: center;
+   background-color: rgba(135, 207, 235, 0.406);
+   
+   
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}

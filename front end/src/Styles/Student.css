@@ -1,0 +1,16 @@
+body{
+    background: rgb(220,181,217);
+    background: radial-gradient(circle, rgba(220,181,217,0.7148109243697479) 3%, rgba(235,213,171,0.5467436974789917) 43%);
+}
+div{
+   
+    margin-left: 150px;
+}
+
+
+.red{
+    background-color: red;  
+}
+.green{
+    background-color: green;
+}

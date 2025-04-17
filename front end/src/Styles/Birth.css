@@ -1,0 +1,33 @@
+.page-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; Prevent scrolling */
+  }
+  
+  .appbar {
+    background-color: #1976d2; /* Keep your existing appbar style */
+    padding: 10px;
+  }
+  
+  .content-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    width: 100%;
+    max-width: 500px; /* Adjust form width */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  button {
+    margin-top: 16px;
+  }
+  
+  

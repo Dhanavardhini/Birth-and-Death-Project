@@ -1,0 +1,33 @@
+*{margin: 0px;
+  padding: 0px;
+}
+
+button{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,116,0.9977240896358543) 10%);
+}
+select{
+  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,116,0.9977240896358543) 10%);
+    border: 10px;
+}
+
+h1{
+  color:#232D3F;  
+}
+.y{
+    height: 100vh;
+    width: 100vw;
+    background-color:#EFF5F5;
+   
+}
+input{
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  color: black;
+  
+  background: transparent;
+  border-bottom: 2px solid black; 
+}

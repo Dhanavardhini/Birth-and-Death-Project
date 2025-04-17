@@ -1,0 +1,76 @@
+.admin-boxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background: rgb(224,189,206);
+  background: -moz-linear-gradient(90deg, rgba(224,189,206,1) 23%, rgba(227,171,235,0.1966036414565826) 95%);
+  background: -webkit-linear-gradient(90deg, rgba(224,189,206,1) 23%, rgba(227,171,235,0.1966036414565826) 95%);
+  background: linear-gradient(90deg, rgba(224,189,206,1) 23%, rgba(227,171,235,0.1966036414565826) 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0bdce",endColorstr="#e3abeb",GradientType=1);
+
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.login-container {
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+  
+    background-color: #0000008a;
+}
+.login-buttonf {
+    width: 50%;
+    padding: 10px;
+    background: #3498db;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+.login-title {
+    color:#fefefe;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color:#f4f4f4;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 0.70rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   

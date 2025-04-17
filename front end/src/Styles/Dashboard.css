@@ -1,0 +1,123 @@
+/* Dashboard Container */
+.dashboard-container {
+  background: linear-gradient(to right, #c6e7ff, #f0f8ff);
+  min-height: 100vh;
+  height: 100vh; /* Prevent scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Navigation Bar */
+.appbar {
+  background-color: #1976d2;
+  padding: 10px;
+}.toolbar {
+  display: flex;
+  justify-content: space-between; /* Pushes items to opposite sides */
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+
+/* Content Section */
+.content-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-image {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.8s ease-in-out;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Text Section - Card Style */
+.text-card {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  animation: slideIn 0.8s ease-in-out;
+}
+
+.text-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+  background: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-section {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-image {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-image {
+    max-width: 200px;
+  }
+}

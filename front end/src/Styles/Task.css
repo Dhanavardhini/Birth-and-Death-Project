@@ -1,0 +1,113 @@
+
+
+ 
+h4{
+ margin-top: 150px;
+}
+
+h1{
+    text-decoration: underline black;
+    color: black;
+}
+
+
+button{
+  font-size: medium;
+    margin-top: 100px;
+    width:200px;
+    cursor: pointer;
+    padding: 10px;
+  background-color: red;
+  color: white;
+    border: none;
+    border-radius: 10px;
+}
+input{
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+   cursor: pointer;
+    border: none;
+    text-align: center;
+   color: #E5E1DA;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/ghym2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    justify-content: center;
+   
+  }
+ 
+  
+
+
+
+  .har {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .har {
+      width: 90%; 
+      padding: 10px; 
+    }
+  }
+  
+  .circle {
+  
+    width: 50px;
+    height: 50px;
+    background-color:#35374B;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  .gym-name {
+    font-size: 18px;
+    font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divider {
+  width: 2px;
+  height: 50px;
+  background-color: #000;
+  margin: 0 50px;
+}
+ 
+
+.inputwrap {
+    position: relative;
+    width: 100%;
+}
+
+.inputcont {
+  position: relative;
+  margin-bottom: 20px; 
+}
+.input-icons, .input-icon {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%); 
+  right: 300px; 
+  color: #686D76; 
+  transition: color 0.3s;
+} 

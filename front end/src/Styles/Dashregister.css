@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+  
+ .input{
+    display: block;
+    border: none;
+    margin-top: 13px;
+    width: 300px;
+
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    color: black;
+}
+
+  
+.form{
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 90%;
+    height: 500%;
+    padding: 10px;
+border-radius: 10px;
+margin-top: 5%;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+ 
+}
+h1{
+    text-decoration: underline;
+}
+.welcome-tag {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+  }
+   .welcome {
+    position: absolute;
+    top: 450px;
+    right: 200px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    height: 3%;
+    width: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+  } 
